@@ -105,9 +105,3 @@ services:
    - .env_db_pgsql
   user: root
   stop_grace_period: 1m
-  networks:
-   zbx_net_backend:
-    aliases:
-     - postgres-server
-     - pgsql-server
-     - pgsql-database
